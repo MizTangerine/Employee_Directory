@@ -4,7 +4,7 @@ import './App.css';
 import Employee from './components/Employee.jsx'
 
 
-
+// import { MOCKAROO_KEY } from "@env"
 import Mockaroo from 'mockaroo'
 var client = new Mockaroo.Client({
   apiKey: 'c01a9820'
@@ -25,7 +25,8 @@ class App extends Component {
         fName: data.first_name,
         lName: data.last_name,
         title: data.title,
-        email: data.email
+        email: data.email,
+        avatar: data.avatar
       }))
       this.setState({ data: mockData })
     });
@@ -40,6 +41,7 @@ class App extends Component {
           lName={employee.lName}
           title={employee.title}
           email={employee.email}
+          avatar={employee.avatar}
         />)}
         <button onClick={this.click}>click</button>
       </div >

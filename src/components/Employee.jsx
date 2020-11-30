@@ -8,6 +8,7 @@ function Employee(props) {
             <h2>Last Name: {props.lName}</h2>
             <h2>Title: {props.title}</h2>
             <h2>Email: {props.email}</h2>
+            <img src={props.avatar} alt={props.fName}></img>
         </div>
     )
 };
