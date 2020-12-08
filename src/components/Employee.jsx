@@ -1,16 +1,16 @@
-import React from "react";
+// import React from "react";
 
-function Employee(props) {
-    // console.log(props)
-    return (
-        <div>
-            <h2>First Name: {props.fName}</h2>
-            <h2>Last Name: {props.lName}</h2>
-            <h2>Title: {props.title}</h2>
-            <h2>Email: {props.email}</h2>
-            <img src={props.avatar} alt={props.fName}></img>
-        </div>
-    )
-};
+// function Employee(props) {
+//     // console.log(props)
+//     return (
+//         <div>
+//             <img src={props.avatar} alt={props.fName}></img>
+//             <h2>First Name: {props.fName}</h2>
+//             <h2>Last Name: {props.lName}</h2>
+//             <h2>Title: {props.title}</h2>
+//             <h2>Email: {props.email}</h2>
+//         </div>
+//     )
+// };
 
-export default Employee;
+// export default Employee;
