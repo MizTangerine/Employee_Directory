@@ -31,6 +31,13 @@ const Employee = (props) => {
                     <th>
                         <button
                             type="button"
+                            onClick={() => requestSort('title')}
+                            className={getClassNamesFor('title')}
+                        >Title</button>
+                    </th>
+                    <th>
+                        <button
+                            type="button"
                             onClick={() => requestSort('email')}
                             className={getClassNamesFor('email')}
                         >Email</button>
@@ -49,6 +56,7 @@ const Employee = (props) => {
                     <tr key={emp.id}>
                         <td>{emp.first_name}</td>
                         <td>{emp.last_name}</td>
+                        <td>{emp.title}</td>
                         <td>{emp.email}</td>
                         <td>{emp.phone}</td>
                     </tr>
