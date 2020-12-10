@@ -27,7 +27,7 @@ Copyright (c) 2020 Clarissa
 
 * Sort function courtesy of [Kristofer Giltvedt Selbekk, Smashing Magazine](https://www.smashingmagazine.com/2020/03/sortable-tables-react/)
 
-* Filter function from [StackOverflow] (https://stackoverflow.com/questions/58893340/filter-array-of-objects-based-on-input-field-in-react)
+* Filter function from [StackOverflow](https://stackoverflow.com/questions/58893340/filter-array-of-objects-based-on-input-field-in-react)
 
 * Collaboration with [Walter Guerrero](https://github.com/ReddPhoenix)
 
