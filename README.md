@@ -8,7 +8,7 @@ Given a set of employees, the user can sort or search/filter by any of the colum
 
 Link to live site: [React Employee Directory](https://clarissareeve.github.io/Employee_Directory/)
 
-![Landing Page](public/images/LandingPage.gif)
+![Landing Page](/public/images/LandingPage.gif)
 
 ## Table of Contents
 
